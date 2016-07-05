@@ -140,24 +140,32 @@
     <Folder Include="Views\Booking\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Module6.EventSourcing.CommandStack.Domain\Module6.EventSourcing.CommandStack.Domain.csproj">
+      <Project>{c8967a44-07eb-4738-8d74-dfefc8567289}</Project>
+      <Name>Module6.EventSourcing.CommandStack.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Module6.EventSourcing.CommandStack\Module6.EventSourcing.CommandStack.csproj">
-      <Project>{D82451D4-8E3D-4DAE-AC22-54CC4CCB3E5F}</Project>
+      <Project>{2FA8807F-2BBA-4361-9C0A-F6E01B1064D8}</Project>
       <Name>Module6.EventSourcing.CommandStack</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Module6.EventSourcing.Infrastructure.EventStore.SqlServer\Module6.EventSourcing.Infrastructure.EventStore.SqlServer.csproj">
+      <Project>{0f55f1f4-6841-43ad-95d9-78bdf57d247e}</Project>
+      <Name>Module6.EventSourcing.Infrastructure.EventStore.SqlServer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Module6.EventSourcing.Infrastructure.Persistence.SqlServer\Module6.EventSourcing.Infrastructure.Persistence.SqlServer.csproj">
-      <Project>{FE3E2CFA-B5E6-4386-8260-5AC2C444C032}</Project>
+      <Project>{64ff537a-0b40-4638-a407-29200ee745b7}</Project>
       <Name>Module6.EventSourcing.Infrastructure.Persistence.SqlServer</Name>
     </ProjectReference>
     <ProjectReference Include="..\Module6.EventSourcing.Infrastructure\Module6.EventSourcing.Infrastructure.csproj">
-      <Project>{3D3D7826-5BAD-47BA-98D3-60062790A4CA}</Project>
+      <Project>{2F2FA32E-E2E3-43DF-9935-14F1E01FE649}</Project>
       <Name>Module6.EventSourcing.Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\Module6.EventSourcing.QueryStack\Module6.EventSourcing.QueryStack.csproj">
-      <Project>{13D1B635-D40A-4EF6-B50F-3CE63B88B2B8}</Project>
+      <Project>{865eadc1-65df-4798-ae15-267ee615e498}</Project>
       <Name>Module6.EventSourcing.QueryStack</Name>
     </ProjectReference>
     <ProjectReference Include="..\Module6.EventSourcing.SharedKernel\Module6.EventSourcing.SharedKernel.csproj">
-      <Project>{C950AC4D-F9D3-4C65-90EB-F40496501B0B}</Project>
+      <Project>{c950ac4d-f9d3-4c65-90eb-f40496501b0b}</Project>
       <Name>Module6.EventSourcing.SharedKernel</Name>
     </ProjectReference>
   </ItemGroup>

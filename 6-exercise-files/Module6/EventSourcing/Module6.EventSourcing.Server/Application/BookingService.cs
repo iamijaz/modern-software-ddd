@@ -1,8 +1,10 @@
-﻿using System.Linq;
+﻿
+
+using System.Linq;
 using Module6.EventSourcing.CommandStack.Commands;
 using Module6.EventSourcing.CommandStack.Domain.Services;
-using Module6.EventSourcing.QueryStack.DataAccess;
 using Module6.EventSourcing.QueryStack.Model;
+using Module6.EventSourcing.QueryStack.DataAccess;
 using Module6.EventSourcing.SharedKernel;
 
 namespace Module6.EventSourcing.Server.Application
